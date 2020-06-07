@@ -42,7 +42,7 @@ Xcode赋值给`inherited values`时顺序如下
 ## Tip
 mac中，如何在当前文件夹打开终端（Terminal）    
 1）系统自带服务，在SystemPreference-Keyboard-Shortcuts-Services 中勾选`New Terminal at Folder`，然后右键单击某个文件夹时，就会出现`New Terminal at Folder`选项，单击机会新建一个Terminal窗口，并cd到这个文件夹    
-2) 使用大神写的工具https://github.com/jbtule/cdto，可以直接在文件夹的工具栏上加一个按钮，点一下就行！
+2) 使用大神写的工具[https://github.com/jbtule/cdto](https://github.com/jbtule/cdto)，可以直接在文件夹的工具栏上加一个按钮，点一下就行！
 
 ## Share
 https://juejin.im/post/5e5fc16df265da575155723b
