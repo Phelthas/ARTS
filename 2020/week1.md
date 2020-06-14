@@ -45,4 +45,4 @@ mac中，如何在当前文件夹打开终端（Terminal）
 2) 使用大神写的工具[https://github.com/jbtule/cdto](https://github.com/jbtule/cdto)，可以直接在文件夹的工具栏上加一个按钮，点一下就行！
 
 ## Share
-https://juejin.im/post/5e5fc16df265da575155723b
+[轻松过面：一文全解iOS通知机制(经典收藏)](https://juejin.im/post/5e5fc16df265da575155723b)
