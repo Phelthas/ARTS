@@ -25,7 +25,8 @@
 
 
 ## Tip
-待补充
+NSAttributedString的attributeDict里面还有一个`NSShadowAttributeName`，可以设置为`NSShadow`类，可以用来设置字符串的阴影。    
+甚至可以利用其属性实现字体模糊的效果（设置真字符串的的颜色透明，而阴影颜色不透明，阴影可以设置shadowBlurRadius属性）
 
 ## Share
 [iOS图像最佳实践总结](https://juejin.im/post/5c84bd676fb9a049e702ecd8)
