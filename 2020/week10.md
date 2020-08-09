@@ -28,7 +28,10 @@ func permuteUnique(_ nums: [Int]) -> [[Int]] {
 ```
 
 ## Review
-
+[BOOL / bool / Boolean / NSCFBoolean](https://nshipster.com/bool/)
+`typedef signed char BOOL`    
+Because NULL and nil zero values, they evaluate to “false” in conditional expressions.    
+NSCFBoolean is a private class in the NSNumber class cluster. It’s a bridge to the CFBooleanRef type.
 
 ## Tip
 使用`git lfs prune`命令的时候，命令行有时候会卡住
