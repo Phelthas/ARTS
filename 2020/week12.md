@@ -2,7 +2,60 @@
 ## Algorithm
 
 ```
-
+/// 59. 螺旋矩阵 II
+    func generateMatrix(_ n: Int) -> [[Int]] {
+        var result = [[Int]]()
+        for _ in 0 ..< n {
+            let temp = [Int](repeating: 0, count: n)
+            result.append(temp)
+        }
+        
+        var k = 0
+        var i = 0
+        var j = 0
+        var current = 1
+        
+        while k <= (n - 1) / 2 {
+            i = k
+            for temp in k ..< n - k {
+                result[i][temp] = current
+                current += 1
+            }
+            if current > n * n {
+                break
+            }
+            
+            j = n - 1 - k
+            for temp in k + 1 ..< n - k {
+                result[temp][j] = current
+                current += 1
+            }
+            if current > n * n {
+                break
+            }
+            
+            i = n - 1 - k
+            for temp in (k ..< n - 1 - k).reversed() {
+                result[i][temp] = current
+                current += 1
+            }
+            if current > n * n {
+                break
+            }
+            
+            j = k
+            for temp in (k + 1 ..< n - 1 - k).reversed() {
+                result[temp][j] = current
+                current += 1
+            }
+            if current > n * n {
+                break
+            }
+            k += 1
+        }
+        return result
+        
+    }
 ```
 
 ## Review
