@@ -35,7 +35,9 @@ func combine(_ n: Int, _ k: Int) -> [[Int]] {
 ## Review
 [objc_msgSend's New Prototype](https://www.mikeash.com/pyblog/objc_msgsends-new-prototype.html)    
 老高端了   
-介绍了iOS14中 `objc_msgSend`的新的函数原型，强烈建议细读
+介绍了iOS14中 `objc_msgSend`的新的函数原型，强烈建议细读。
+核心的思想是，把objc_msgSend的修改成了一个明显错误的Prototype，这样的话，使用的时候，必须显示的将其转换为正确的类型，否则调用就会报错；     
+这样就可以在编译阶段就发现可能存在的问题，而不是等函数出错了都不知道错在了哪里。
 
 
 ## Tip    
