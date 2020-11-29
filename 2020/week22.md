@@ -38,7 +38,7 @@
 [Objective-C Documentation](https://nshipster.com/objective-c-documentation/)
 
 ## Tip    
-待补充
+使用CALayer的`zPosition`属性，可以修改layer的显示层级，`zPosition`值越大，显示越靠上。但是这并不影响UIView的响应链，各种事件的响应流程还是按UIView的层级来传递，所以修改`zPosition`可能会造成“你以为点击的是看到的最上面的A，但其实点到是A下面的B”这种奇葩的表现，还是慎用为妙。
 
 ## Share
 [Type Encodings](https://nshipster.com/type-encodings/)
